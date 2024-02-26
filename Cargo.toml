@@ -1,0 +1,17 @@
+[package]
+name = "joycon-quat"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bilge = "0.2"
+bitvec = "1.0"
+fixed = "1.23"
+fixed-sqrt = "0.2"
+az = "1.2"
+
+[dev-dependencies]
+nalgebra = { version = "0.32", features = ["rand"]}
+rand = "0.8"
