@@ -181,6 +181,6 @@ impl LastDeltaFirstDeltaMid {
 #[bitsize(17)]
 #[derive(DebugBits, PartialEq, FromBits, Copy, Clone)]
 pub struct Timestamp {
-    start: u11,
-    count: u6,
+    pub start: u11,
+    pub count: u6,
 }
